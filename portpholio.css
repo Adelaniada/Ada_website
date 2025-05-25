@@ -58,6 +58,7 @@ a {
 }
 a:hover {
     background-color: hsla(0, 1%, 73%, 0.634);
+    color: aliceblue;
 }
 a:active {
     background-color: hsl(0, 0%, 28%);
