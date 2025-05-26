@@ -57,11 +57,12 @@ a {
    text-align: center;
 }
 a:hover {
-    background-color: hsla(0, 1%, 73%, 0.634);
+    /* background-color: hsla(0, 1%, 73%, 0.634); */
     color: aliceblue;
 }
 a:active {
-    background-color: hsl(0, 0%, 28%);
+    background-color: hwb(0 74% 26% / 0.637);
+    /* transform: rotateY('angle'); */
 }
 /* Контент часы */
 .date_clock {
