@@ -20,7 +20,7 @@ function update() {
 
 // Меню проектов
 document.getElementById("projects_menu").addEventListener('click', func_style) 
-let fix = 0
+let fix = 1
 function func_style(){
     if (fix == 0) {
     document.getElementById('projects_menu').style.left = '-115px'
