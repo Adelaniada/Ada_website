@@ -5,20 +5,20 @@ body {
 /* Меню */
 .dashed {
 /* position: relative; */
-border-right: 10px dashed #000;
+/* border-right: 10px dashed #000;
 padding: 60px;
 height: 100vh;
-width: 60px;
+width: 60px; */
 }
 /* Заголовок */
 .header_back {
-    position: absolute;
-    top: 0;
-    left: 0;
+    /* position: absolute; */
+    /* top: 0;
+    left: 0; */
     background-color: lab(0% 0 0 / 0.615);
     padding: 60px;
     margin: 20px;
-    width: 180vh;
+    /* width: 180vh; */
 }
 h1 {
     color: aliceblue;
@@ -27,11 +27,12 @@ h1 {
 /* Меню проектов */
 .tup_menu {
     background-color: hwb(0 0% 100% / 0.212);
-    position: absolute;
-    top: 110px;
+    margin: 20px;
+    /* position: absolute;*/
+    /* top: 110px;
     left: -115px;
     height: 100%;
-    width: 160px;
+    width: 160px; */
 }
 .button_links {
     display: flex;
@@ -66,19 +67,20 @@ a:active {
 }
 /* Контент часы */
 .date_clock {
-    position: absolute;
-    top: 275px;
-    left: 260px;
+    /* position: absolute;*/
+    /* top: 275px;
+    left: 260px; */
     font-size: 60px;
     font-weight: 700;
     border: 2px solid #000;
     padding: 20px;
+    margin: 10px;
 }
 /* Кнопки */
 .grid_content {
-    position: absolute;
-    top: 250px;
-    left: 229px;
+   /*  position: absolute;*/
+    /* top: 250px;
+    left: 229px; */
     display: grid;
     gap: 60px;
     grid-template-columns:  auto auto auto;
@@ -92,25 +94,26 @@ button:active {
 }
 /* Картинка */
 .pict {
-    position: absolute;
+   /* position: absolute;*/
     top: 178px;
     right: 0px;
 }
 .border_line {
     border-bottom: 10px solid hwb(140 0% 71%);
-    position: absolute;  
+   /* position: absolute; */ 
     top: 621px;
     left: 0;
     width: 199vh;
 }
 .h2_class {
-    position: absolute;
+   /* position: absolute;*/
     top: 350px;
     left: 228px;
     font-size: 60px;
 }
 .my_contact_information {
-    position: absolute;
+   /* position: absolute;*/
     right: 20px;
-    top: 620px;
+    /* top: 620px; */
+    margin: 20px;
 }
