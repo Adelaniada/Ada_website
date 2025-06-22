@@ -2,20 +2,11 @@ body {
     background-color: RGB(198,197,195);
     margin: 0;
 }
-/* Меню */
-.dashed {
-/* position: relative; */
-/* border-right: 10px dashed #000;
-padding: 60px;
-height: 100vh;
-width: 60px; */
-}
 /* Заголовок */
 .header_back {
     background-color: lab(0% 0 0 / 0.615);
     padding: 60px;
     margin: 20px;
-    /* width: 180vh; */
 }
 h1 {
     color: aliceblue;
@@ -25,11 +16,6 @@ h1 {
 .tup_menu {
     background-color: hwb(0 0% 100% / 0.212);
     margin: 20px;
-    /* position: absolute;*/
-    /* top: 110px;
-    left: -115px;
-    height: 100%;
-    width: 160px; */
 }
 .button_links {
     display: flex;
@@ -64,24 +50,13 @@ a:active {
 }
 /* Контент часы */
 .date_clock {
-    /* position: absolute;*/
-    /* top: 275px;
-    left: 260px; */
     font-size: 60px;
     font-weight: 700;
     border: 2px solid #000;
-    padding: 20px;
+    padding: 2% 5%;
     margin: 10px;
 }
 /* Кнопки */
-.grid_content {
-   /*  position: absolute;*/
-    /* top: 250px;
-    left: 229px; */
-    display: grid;
-    gap: 60px;
-    grid-template-columns:  auto auto auto;
-}
 button:hover {
 display: block;
 background-color: lch(100% 0.01 296.81 / 0.466);
@@ -89,28 +64,7 @@ background-color: lch(100% 0.01 296.81 / 0.466);
 button:active {
     transform: translateY(2px);
 }
-/* Картинка */
-.pict {
-   /* position: absolute;*/
-    top: 178px;
-    right: 0px;
-}
-.border_line {
-    border-bottom: 10px solid hwb(140 0% 71%);
-   /* position: absolute; */ 
-    top: 621px;
-    left: 0;
-    width: 199vh;
-}
-.h2_class {
-   /* position: absolute;*/
-    top: 350px;
-    left: 228px;
-    font-size: 60px;
-}
 .my_contact_information {
-   /* position: absolute;*/
-    right: 20px;
-    /* top: 620px; */
-    margin: 20px;
+    /* right: 20%; */
+    margin: 5%;
 }
