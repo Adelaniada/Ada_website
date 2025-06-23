@@ -1,4 +1,4 @@
-//  alert('Hi')
+
 
 //Дата и время
 function update() {
@@ -19,15 +19,15 @@ function update() {
     setInterval(update, 1000)
 
 // Меню проектов
-document.getElementById("projects_menu").addEventListener('click', func_style) 
-let fix = 1
-function func_style(){
-    if (fix == 0) {
-    document.getElementById('projects_menu').style.left = '-115px'
-    return fix = 1
-    }
-    else if (fix == 1) {
-    document.getElementById('projects_menu').style.left = '0'
-    return fix = 0
-    }
-}
+// document.getElementById("projects_menu").addEventListener('click', func_style) 
+// let fix = 1
+// function func_style(){
+//     if (fix == 0) {
+//     document.getElementById('projects_menu').style.left = '-115px'
+//     return fix = 1
+//     }
+//     else if (fix == 1) {
+//     document.getElementById('projects_menu').style.left = '0'
+//     return fix = 0
+//     }
+// }
