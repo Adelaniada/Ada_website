@@ -1,0 +1,18 @@
+body {
+    background-color: lab(83.84% 0 -0.01);
+}
+
+.box-1 {
+    background-color: #58607a;
+    color: #000000;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+    padding: 1%;
+    justify-content: space-around;
+    margin: 30px 0;
+}
+.box-mini {
+    padding: 4%;
+    background-color: aliceblue;
+}
